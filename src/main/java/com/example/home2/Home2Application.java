@@ -20,6 +20,6 @@ public class TestingproApplication {
 
     @GetMapping("/dash")
     public String dash() {
-        return "welcome dash"
+        return "welcome dash";
     }
 }
